@@ -1,0 +1,133 @@
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --black-content: #333333;
+  --black-copyright: #231F20;
+  --blue-light: #81B3D2;
+  --blue: #669EC0;
+  --blue-dark: #5496BD;
+  --brown-light: #766357;
+  --brown: #604E43;
+  --brown-dark: #503E33;
+  --brown-title: #766458;
+  --gray-light: #F2F2F2;
+  --gray: #EBEBEB;
+  --gray-dark: #A9A9A9;
+  --gray-border: #E5E5E5;
+  --gray-arrow: #CACACA;
+  --gray-rating: #666666;
+  --gray-background: #EEEEEE;
+}
+body {
+  min-width: 1200px;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--black, #000000);
+  background-color: var(--white, #FFFFFF);
+}
+a {
+  text-decoration: none;
+}
+.navigation-list {
+  list-style: none;
+}
+.navigation-item  a{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--black, #000000);
+}
+.main-title h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  color: var(--black, #000000);
+}
+.main-title p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--black-content, #333333);
+}
+.main-features {
+  background-color: var(--blue-light, #81B3D2);
+}
+.main-features h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 21px;
+  color: var(--white, #FFFFFF);
+}
+.main-features p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--white, #FFFFFF);
+}
+.main-features-next {
+  background-color: var(--gray-background, #EEEEEE);
+}
+.main-features-next h2,
+.main-benefits h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 21px;
+  color: var(--black, #000000);
+}
+.main-features-next p,
+.main-benefits p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--black-content, #333333);
+}
+.main-title-down h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 24px;
+  color: var(--black, #000000);
+}
+.main-title-down p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--black-content, #333333);
+}
+.button-search-hotels {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  color: var(--white, #FFFFFF);
+  background-color: var(--brown-light, #766357);
+}
+.footer-link,
+.footer-phone {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  color: var(--black, #000000);
+}
+.footer-copyright {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--black, #000000);
+}
+
