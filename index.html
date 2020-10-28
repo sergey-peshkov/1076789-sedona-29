@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body class="page-body">
     <header class="header">
       <nav class="navigation">
         <a class="navigation-logo" href="">
@@ -32,49 +32,61 @@
     </header>
     <main class="main">
       <img class="main-background-image" src="" width="" height="" alt="">
-      <section class="main-title">
-        <h1>Седона - небольшой городок в аризоне, заслуживающий большего!</h1>
-        <p>рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
-      </section>
-      <section class="main-features">
-        <h2>настоящий городок</h2>
-        <p>-№1-</p>
-        <p>седона - не аттракцион для туристов, там течёт своя жизнь</p>
-        <img class="main-features-image" src="img/house-in-sedona.jpg" width="800" height="256" alt="Здание местного муниципалитета.">
-      </section>
-      <section class="main-benefits">
-        <h2>жильё</h2>
-       <p>рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-      </section>
-      <section class="main-benefits">
-        <h2>еда</h2>
-        <p>всегда заказывайте фирменный бургер, вы не разочаруетесь</p>
-      </section>
-      <section class="main-benefits">
-        <h2>сувениры</h2>
-        <p>не только китайского, но и местного производства!</p>
-      </section>
-      <section class="main-features">
-        <img class="main-features-image" src="img/bridge.jpg" width="800" height="256" alt="Каменная балка, лежащая на вершинах двух скал.">
-        <h2>там есть мост дьявола</h2>
-        <p>-№2-</p>
-        <p>да, по нему можно пройти! если конечно вы осмелитесь</p>
-      </section>
-      <section class="main-features-next">
-        <h2>небольшая площадь</h2>
-        <p>-№3-</p>
-        <p>все достопримечательности находятся очень близко</p>
-      </section>
-      <section class="main-features-next">
-        <h2>красивая дорога</h2>
-        <p>-№4-</p>
-        <p>ехать в седону из лас-вегаса совсем не скучно!</p>
-      </section>
-      <section class="main-features-next">
-        <h2>мало туристов</h2>
-        <p>-№5-</p>
-        <p>большинство едет в гранд каньон и толпится там</p>
-      </section>
+      <div class="main-container">
+      <div class="main-title-grid">
+          <section class="main-title">
+            <h1>Седона - небольшой городок в аризоне, заслуживающий большего!</h1>
+           <p>рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
+          </section>
+      </div>
+        <section class="main-features">
+          <div>
+            <h2>настоящий городок</h2>
+            <p>-№1-</p>
+            <p>седона - не аттракцион для туристов, там течёт своя жизнь</p>
+          </div>
+          <img class="main-features-image" src="img/house-in-sedona.jpg" width="800" height="256" alt="Здание местного муниципалитета.">
+        </section>
+        <div class="main-benefits-grid">
+          <section class="main-benefits">
+            <h2>жильё</h2>
+           <p>рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+          </section>
+          <section class="main-benefits">
+            <h2>еда</h2>
+            <p>всегда заказывайте фирменный бургер, вы не разочаруетесь</p>
+          </section>
+          <section class="main-benefits">
+            <h2>сувениры</h2>
+            <p>не только китайского, но и местного производства!</p>
+          </section>
+        </div>
+        <section class="main-features main-features-grid">
+          <img class="main-features-image" src="img/bridge.jpg" width="800" height="256" alt="Каменная балка, лежащая на вершинах двух скал.">
+          <div>
+            <h2>там есть мост дьявола</h2>
+            <p>-№2-</p>
+            <p>да, по нему можно пройти! если конечно вы осмелитесь</p>
+          </div>
+        </section>
+        <div class="main-features-next-grid">
+          <section class="main-features-next">
+            <h2>небольшая площадь</h2>
+            <p>-№3-</p>
+            <p>все достопримечательности находятся очень близко</p>
+          </section>
+          <section class="main-features-next">
+            <h2>красивая дорога</h2>
+            <p>-№4-</p>
+            <p>ехать в седону из лас-вегаса совсем не скучно!</p>
+          </section>
+          <section class="main-features-next">
+            <h2>мало туристов</h2>
+            <p>-№5-</p>
+            <p>большинство едет в гранд каньон и толпится там</p>
+          </section>
+        </div>
+      </div>
       <section class="main-title-down">
         <h2>Заинтересовались?</h2>
         <p>укажите предпологаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
