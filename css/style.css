@@ -310,4 +310,7 @@ a {
   min-height: 256px;
   text-align: center;
 }
-
+.container {
+  width: 1200px;
+  margin: auto;
+}
