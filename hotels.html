@@ -8,115 +8,123 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header class="header">
-      <nav class="navigation">
-        <a class="navigation-logo" href="index.html">
-          <img src="img/logo.png" width="138" height="70" alt="Логотип">
+    <div class="container">
+      <header class="header">
+        <nav class="navigation">
+          <a class="navigation-logo" href="index.html">
+            <img src="img/logo.png" width="138" height="70" alt="Логотип">
+          </a>
+          <ul class="navigation-list">
+            <li class="navigation-item">
+              <a href="">информация</a>
+            </li>
+            <li class="navigation-item">
+              <a href="">фото и видео</a>
+            </li>
+            <li class="navigation-item">
+              <a href="https://goo.gl/maps/aKh1QpS8fyFnXb6w8">карта штата</a>
+            </li>
+            <li class="navigation-item">
+              <a href="hotels.html">гостиницы</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <div class="form-image">
+          <form class="form">
+            <div class="infastructure-form">
+              <h2>инфраструктура</h2>
+              <input>
+              <input>
+              <input>
+            </div>
+            <div class="type-of-housing-form">
+              <h2>тип жилья</h2>
+              <input>
+              <input>
+              <input>
+            </div>
+            <div class="cost-in-day">
+              стоимость в сутки (р):
+              <button class="form-button">от 0</button>
+              <button class="form-button">до 3000</button>
+               Бегунок
+              <button class="form-button">показать</button>
+            </div>
+          </form>
+        </div>
+        <section class="sort">
+          <h2>найдено 3:</h2>
+          <span>сортировка:</span>
+          <ul class="sort-list">
+            <li class="sort-item">
+              <a href="">по цене</a>
+            </li>
+            <li class="sort-item">
+              <a href="">по типу</a>
+            </li>
+            <li class="sort-item">
+              <a href="">по рейтингу</a>
+            </li>
+          </ul>
+          <div>
+            <a href="" class="icon-up-dir"></a>
+          </div>
+          <div>
+            <a href="" class="icon-down-dir"></a>
+          </div>
+        </section>
+        <section class="hotel">
+          <img src="img/amara.jpg" width="135" height="90"alt="Гостиница у живописной горы">
+          <h2>
+            <a class="hotel-a" href="">amara resort & spa</a>
+          </h2>
+          <p>гостиница</p>
+          <p>от 4000 Р.</p>
+          <a class="hotel-link" href="">подробнее</a>
+          <a class="hotel-link2" href="">забронировать</a>
+          <div class="hotel-star">звёзды</div>
+          <p class="hotel-rating">рейтинг 8,5</p>
+        </section>
+        <section class="hotel">
+          <img src="img/desert.jpg" width="135" height="90"alt="Настоящий американский мотель у дороги">
+          <h2>
+            <a class="hotel-a" href="">desert quail inn</a>
+          </h2>
+          <p>мотель</p>
+          <p>от 3000 Р.</p>
+          <a class="hotel-link" href="">подробнее</a>
+          <a class="hotel-link2" href="">забронировать</a>
+          <div class="hotel-star">звёзды</div>
+          <p class="hotel-rating">рейтинг 8,9</p>
+        </section>
+        <section class="hotel">
+          <img src="img/villas.jpg" width="135" height="90"alt="Отель у реки, с полем для гольфа.">
+          <h2>
+            <a class="hotel-a" href="">villas at poco diablo</a>
+          </h2>
+          <p>апартаменты</p>
+          <p>от 2000 Р.</p>
+          <a class="hotel-link" href="">подробнее</a>
+          <a class="hotel-link2" href="">забронировать</a>
+          <div class="hotel-star">звёзды</div>
+          <p class="hotel-rating">рейтинг 9,2</p>
+        </section>
+      </main>
+      <footer class="footer">
+        <a class="footer-link" href="">#visitsedona</a>
+        <p>тел:
+          <a class="footer-phone" href="tel:+74956660166">+7(495) 666-01-66</a>
+        </p>
+        <a class="footer-social" href="">твиттер</a>
+        <a class="footer-social" href="">фейсбук</a>
+        <a class="footer-social" href="">ютуб</a>
+        <p class="footer-copyright">website by</p>
+        <a class="footer-copyright-link" href="https://htmlacademy.ru/intensive/htmlcss">
+          <img src="img/logo-htmlacademy.png" width="115" height="41" alt="логотип HTML">
         </a>
-        <ul class="navigation-list">
-          <li class="navigation-item">
-            <a href="">информация</a>
-          </li>
-          <li class="navigation-item">
-            <a href="">фото и видео</a>
-          </li>
-          <li class="navigation-item">
-            <a href="https://goo.gl/maps/aKh1QpS8fyFnXb6w8">карта штата</a>
-          </li>
-          <li class="navigation-item">
-            <a href="hotels.html">гостиницы</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main class="main">
-      <div class="form-image">
-        <form class="form">инфраструктура
-          <input>
-          <input>
-          <input>
-           тип жилья
-          <input>
-          <input>
-          <input>
-        </form>
-        <form class="form">стоимость в сутки (р):
-          <button class="form-button">от 0</button>
-          <button class="form-button">до 3000</button>
-           Бегунок
-          <button class="form-button">показать</button>
-        </form>
-      </div>
-      <section class="sort">
-        <h2>найдено 3:</h2>
-        <span>сортировка:</span>
-        <ul class="sort-list">
-          <li class="sort-item">
-            <a href="">по цене</a>
-          </li>
-          <li class="sort-item">
-            <a href="">по типу</a>
-          </li>
-          <li class="sort-item">
-            <a href="">по рейтингу</a>
-          </li>
-        </ul>
-        <div>
-          <a href="" class="icon-up-dir"></a>
-        </div>
-        <div>
-          <a href="" class="icon-down-dir"></a>
-        </div>
-      </section>
-      <section class="hotel">
-        <img src="img/amara.jpg" width="135" height="90"alt="Гостиница у живописной горы">
-        <h2>
-          <a class="hotel-a" href="">amara resort & spa</a>
-        </h2>
-        <p>гостиница</p>
-        <p>от 4000 Р.</p>
-        <a class="hotel-link" href="">подробнее</a>
-        <a class="hotel-link2" href="">забронировать</a>
-        <div>звёзды</div>
-        <p class="hotel-rating">рейтинг 8,5</p>
-      </section>
-      <section class="hotel">
-        <img src="img/desert.jpg" width="135" height="90"alt="Настоящий американский мотель у дороги">
-        <h2>
-          <a class="hotel-a" href="">desert quail inn</a>
-        </h2>
-        <p>мотель</p>
-        <p>от 3000 Р.</p>
-        <a class="hotel-link" href="">подробнее</a>
-        <a class="hotel-link2" href="">забронировать</a>
-        <div>звёзды</div>
-        <p class="hotel-rating">рейтинг 8,9</p>
-      </section>
-      <section class="hotel">
-        <img src="img/villas.jpg" width="135" height="90"alt="Отель у реки, с полем для гольфа.">
-        <h2>
-          <a class="hotel-a" href="">villas at poco diablo</a>
-        </h2>
-        <p>апартаменты</p>
-        <p>от 2000 Р.</p>
-        <a class="hotel-link" href="">подробнее</a>
-        <a class="hotel-link2" href="">забронировать</a>
-        <div>звёзды</div>
-        <p class="hotel-rating">рейтинг 9,2</p>
-      </section>
-    </main>
-    <footer class="footer">
-      <a class="footer-link" href="">#visitsedona</a>
-      <p>тел:
-        <a class="footer-phone" href="tel:+74956660166">+7(495) 666-01-66</a>
-      </p>
-      <a class="footer-social" href="">твиттер</a>
-      <a class="footer-social" href="">фейсбук</a>
-      <a class="footer-social" href="">ютуб</a>
-      <p class="footer-copyright">website by</p>
-      <a class="footer-copyright-link" href="https://htmlacademy.ru/intensive/htmlcss">
-        <img src="img/logo-htmlacademy.png" width="115" height="41" alt="логотип HTML">
-      </a>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
