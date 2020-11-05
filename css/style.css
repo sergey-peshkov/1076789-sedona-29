@@ -387,6 +387,7 @@ a {
   flex-direction: column;
 }
 .footer-social {
+  display: flex;
   justify-content: center;
 }
 .footer-copy-link {
